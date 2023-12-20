@@ -2,12 +2,16 @@
   "compilerOptions": {
     "module": "esnext",
     "target": "es2018",
+    "moduleResolution": "node",
     "noImplicitAny": true,
     "removeComments": true,
     "preserveConstEnums": true,
     "sourceMap": true,
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true
+  },
+  "angularCompilerOptions": {
+    "strictTemplates": true
   },
   "include": ["**/*.ts"],
   "exclude": ["node_modules"]

@@ -18,6 +18,10 @@ module.exports = {
         use: "ts-loader",
         exclude: /node_modules/,
       },
+      {
+        test: /\.html$/,
+        loader: "html-loader",
+      },
     ],
   },
   devServer: {
@@ -26,6 +30,5 @@ module.exports = {
     },
     compress: true,
     port: 8501,
-    open: true,
   },
 };

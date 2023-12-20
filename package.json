@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "@uirouter/angularjs": "^1.1.0",
     "angular": "^1.6.9",
-    "angular-ui-router": "^0.4.2"
+    "angular-ui-router": "^1.0.30",
+    "html-loader": "^4.2.0"
   },
   "devDependencies": {
     "@types/angular": "^1.6.9",
+    "@types/angular-ui-router": "^1.1.44",
     "@types/node": "^20.10.5",
     "ts-loader": "^9.5.1",
     "typescript": "4.x",
